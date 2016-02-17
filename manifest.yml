@@ -1,0 +1,8 @@
+applications:
+- disk_quota: 1024M
+  host: cw-twitbot
+  name: cw-twitbot
+  path: .
+  instances: 1
+  command: node index.js
+  memory: 64M
